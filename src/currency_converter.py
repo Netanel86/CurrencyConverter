@@ -48,7 +48,7 @@ class Converter:
 
     def __check_currency(self, currency, code):
         if currency == 0:
-            raise ConversionError("Conversion Error: '{0}' is not a know currency code".format(code))    
+            raise ConversionError("Conversion Error: '{0}' is not a knowen currency code".format(code))    
     
     def convert(self, sum, from_code, to_code):
         src_currency = self.__currency_dict.get(from_code, 0)

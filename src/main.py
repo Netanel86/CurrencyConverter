@@ -8,7 +8,7 @@ try:
     from_str = input("Enter Source Currency: ").upper()
     to_str = input("Enter Target Currency: ").upper()
     sum = float(input("Enter Amount: "))
-    
+
     converted = converter.convert(sum, from_str, to_str)
 
     print("Converted {0:.2f} {1} {2} to {3:.2f} {4} {5}".format(sum, 
